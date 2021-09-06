@@ -1,0 +1,13 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\dongh\Documents\RecessiveGene).
+  Building TestProjectEditor...
+  Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 5 actions with 8 processes...
+    [1/5] CollisionActor.cpp
+C:\Users\dongh\Documents\RecessiveGene\TestProject\Source\TestProject\CollisionActor.h(22): error C2091: 함수가 함수를 반환합니다.
+C:\Users\dongh\Documents\RecessiveGene\TestProject\Source\TestProject\CollisionActor.h(22): error C3668: 'UCollisionActor::NotifyHit': 재정의 지정자 'override'가 있는 메서드가 기본 클래스 메서드를 재정의하지 않았습니다.
+C:\Users\dongh\Documents\RecessiveGene\TestProject\Source\TestProject\CollisionActor.cpp(20): error C2091: 함수가 함수를 반환합니다.
+C:\Users\dongh\Documents\RecessiveGene\TestProject\Source\TestProject\CollisionActor.cpp(20): error C2723: 'UCollisionActor::NotifyHit': 함수 정의에는 'override' 지정자를 사용할 수 없습니다.
+    [2/5] CollisionActor.gen.cpp
+C:\Users\dongh\Documents\RecessiveGene\TestProject\Source\TestProject/CollisionActor.h(22): error C2091: 함수가 함수를 반환합니다.
+C:\Users\dongh\Documents\RecessiveGene\TestProject\Source\TestProject/CollisionActor.h(22): error C3668: 'UCollisionActor::NotifyHit': 재정의 지정자 'override'가 있는 메서드가 기본 클래스 메서드를 재정의하지 않았습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(45,5): error MSB3073: ""C:\Program Files\Epic Games\UE_4.27\Engine\Build\BatchFiles\Build.bat" TestProjectEditor Win64 Development -Project="C:\Users\dongh\Documents\RecessiveGene\TestProject\TestProject.uproject" -WaitMutex -FromMsBuild" 명령이 종료되었습니다(코드: 6).

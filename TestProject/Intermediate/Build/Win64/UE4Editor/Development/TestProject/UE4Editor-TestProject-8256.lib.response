@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-TestProject-8256.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\dongh\Documents\RecessiveGene\TestProject\Intermediate\Build\Win64\TestProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\dongh\Documents\RecessiveGene\TestProject\Intermediate\Build\Win64\UE4Editor\Development\TestProject\CollisionActor.cpp.obj"
+"C:\Users\dongh\Documents\RecessiveGene\TestProject\Intermediate\Build\Win64\UE4Editor\Development\TestProject\TestProject.cpp.obj"
+"C:\Users\dongh\Documents\RecessiveGene\TestProject\Intermediate\Build\Win64\UE4Editor\Development\TestProject\CollisionActor.gen.cpp.obj"
+"C:\Users\dongh\Documents\RecessiveGene\TestProject\Intermediate\Build\Win64\UE4Editor\Development\TestProject\TestProject.init.gen.cpp.obj"
+"C:\Users\dongh\Documents\RecessiveGene\TestProject\Intermediate\Build\Win64\UE4Editor\Development\TestProject\Default.rc2.res"
+/OUT:"C:\Users\dongh\Documents\RecessiveGene\TestProject\Intermediate\Build\Win64\UE4Editor\Development\TestProject\UE4Editor-TestProject-8256.lib"
