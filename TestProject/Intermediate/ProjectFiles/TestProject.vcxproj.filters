@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TestProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{B749A75F-0727-4DD8-BC8E-2E6244A6A255}</UniqueIdentifier>
+      <UniqueIdentifier>{664B839B-14A7-4F39-9785-BC9A6E00B4C8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TestProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{2ED0D22E-D0E5-4C70-AA51-F8AA10C11D3D}</UniqueIdentifier>
+      <UniqueIdentifier>{040C91CD-B5CD-4073-9A2C-5351737B2FD8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,14 +30,8 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\TestProject">
-      <UniqueIdentifier>{C858FE7F-0F92-4C0F-810F-CF55BAF4DB15}</UniqueIdentifier>
+      <UniqueIdentifier>{FE0846D7-ADA7-4681-B3C7-D9B177713EE9}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\TestProject\CollisionActor.cpp">
-      <Filter>Source\TestProject</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\TestProject\CollisionActor.h">
-      <Filter>Source\TestProject</Filter>
-    </ClInclude>
     <None Include="..\..\Source\TestProject\TestProject.Build.cs">
       <Filter>Source\TestProject</Filter>
     </None>
@@ -47,5 +41,11 @@
     <ClInclude Include="..\..\Source\TestProject\TestProject.h">
       <Filter>Source\TestProject</Filter>
     </ClInclude>
+    <Filter Include="Source\TestProject\Private">
+      <UniqueIdentifier>{69909CA8-1884-40DF-985C-0C51535F8CE0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\TestProject\Public">
+      <UniqueIdentifier>{75DF8037-FA7D-46DE-BA88-7037F07FCBCA}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>
