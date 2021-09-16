@@ -1,7 +1,6 @@
 # RecessiveGene
 
 ## UNREAL ENGINE 4 Game Project  
-__This is the Develpe branch of the game. DO NOT MERGE THIS MD.__  
 _Using Unreal Engine 4.27 Ver._
 
 [1.Intro](#1.Intro)  
