@@ -25,7 +25,7 @@ void ACollisionTestActor::BeginPlay()
 void ACollisionTestActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
+	AddActorLocalRotation(FRotator(0.f, 30.f * DeltaTime, 0.f));
 }
 
 void ACollisionTestActor::NotifyHit(UPrimitiveComponent* MyComp, AActor* Other, UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult& Hit)
