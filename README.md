@@ -29,6 +29,12 @@ __현재까지의 아이디어__
 -
 -
 
+__개발 계획__
+- 전투 시스템 구축
+- Grid System과 Navigation기능 통합하기
+- 카메라 전환/회전 구축  
+
+
 ## Progress
 - _2021-09-16_ main-develop branch 분리  
 
